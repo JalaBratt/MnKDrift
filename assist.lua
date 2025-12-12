@@ -8,8 +8,8 @@ local VELOCITY_ANGLE_SMOOTHING = 0.15 -- Smoothing for drift angle (0.05=very sm
 -- Boost steering SPEED while reducing FFB resistance - drift tracking stays intact
 -- Pressing LMB will ramp in transition mode, releasing will ramp out
 local TRANSITION_STEER_SPEED_BOOST = 1.0 -- How much faster steering responds during transition
-local TRANSITION_FFB_REDUCTION = 0.7 -- FFB multiplier during transition
-local TRANSITION_GYRO_REDUCTION = 0.7 -- Gyro multiplier during transition
+local TRANSITION_FFB_REDUCTION = 0.7 -- FFB multiplier during transition (0.1 = 10%, 1 = 100%)
+local TRANSITION_GYRO_REDUCTION = 0.7 -- Gyro multiplier during transition (0.1 = 10%, 1 = 100%)
 local TRANSITION_RAMP_TIME_PRESS = 0.55 -- Time to ramp IN when LMB pressed (0% to 100%)
 local TRANSITION_RAMP_TIME_RELEASE = 0.15 -- Time to ramp OUT when LMB released (100% to 0%)
 
